@@ -8,22 +8,10 @@
 
 import SpriteKit
 
-extension Int {
+class Orbit {
 
-    var degreesToRadians: Double {
-        return Double(self) * .pi / 180
-    }
-
-}
-
-extension FloatingPoint {
-
-    var degreesToRadians: Self {
-        return self * .pi / 180
-    }
-
-    var radiansToDegrees: Self {
-        return self * 180 / .pi
+    class func radius(for orbit: Int) -> Int {
+        return 60 + orbit * 40
     }
 
 }
@@ -33,7 +21,7 @@ class OrbitNode: SKShapeNode {
     init(_ number: Int) {
         super.init()
 
-        let radius = number * 50
+        let radius = Orbit.radius(for: number)
         let diameter = radius * 2
         let origin = CGPoint(x: -radius, y: -radius)
         let size = CGSize(width: diameter, height: diameter)
@@ -82,8 +70,9 @@ class MonthMarkerNode: SKShapeNode {
 
         let angle = (Float(totalDays) / Float(daysInYear)) * 360.0
 
-        let origin = CGPoint(x: -2, y: orbit * 50)
-        let size = CGSize(width: 4, height: 20)
+        let radius = Orbit.radius(for: orbit)
+        let origin = CGPoint(x: -2, y: radius)
+        let size = CGSize(width: 4, height: 15)
         self.path = CGPath(rect: CGRect(origin: origin, size: size),
                            transform: nil)
         self.lineWidth = 0
