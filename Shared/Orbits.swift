@@ -11,7 +11,7 @@ import SpriteKit
 class Orbit {
 
     class func radius(for orbit: Int) -> Int {
-        return 60 + orbit * 40
+        return 60 + orbit * 45
     }
 
 }
