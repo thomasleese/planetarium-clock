@@ -17,7 +17,7 @@ class InterfaceController: WKInterfaceController {
     override func awake(withContext context: Any?) {
         super.awake(withContext: context)
         
-        let scene = GameScene.newGameScene()
+        let scene = PlanetariumClockScene.loadScene()
         
         // Present the scene
         self.skInterface.presentScene(scene)

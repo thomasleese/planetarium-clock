@@ -13,33 +13,29 @@ import SpriteKit
     typealias SKColor = UIColor
 #endif
 
-class GameScene: SKScene {
-    
+class PlanetariumClockScene: SKScene {
     
     fileprivate var label : SKLabelNode?
     fileprivate var spinnyNode : SKShapeNode?
-
     
-    class func newGameScene() -> GameScene {
-        // Load 'GameScene.sks' as an SKScene.
-        guard let scene = SKScene(fileNamed: "GameScene") as? GameScene else {
-            print("Failed to load GameScene.sks")
+    class func loadScene() -> PlanetariumClockScene {
+        guard let scene = SKScene(fileNamed: "PlanetariumClockScene") as? PlanetariumClockScene else {
+            print("Failed to load scene!")
             abort()
         }
         
-        // Set the scale mode to scale to fit the window
-        scene.scaleMode = .aspectFill
-        
+        scene.scaleMode = .aspectFit
+
         return scene
     }
     
     func setUpScene() {
         // Get label node from scene and store it for use later
-        self.label = self.childNode(withName: "//helloLabel") as? SKLabelNode
-        if let label = self.label {
+        //self.label = self.childNode(withName: "//helloLabel") as? SKLabelNode
+        /*if let label = self.label {
             label.alpha = 0.0
             label.run(SKAction.fadeIn(withDuration: 2.0))
-        }
+        }*/
         
         // Create shape node to use during mouse interaction
         let w = (self.size.width + self.size.height) * 0.05
@@ -91,7 +87,7 @@ class GameScene: SKScene {
 
 #if os(iOS) || os(tvOS)
 // Touch-based event handling
-extension GameScene {
+extension PlanetariumClockScene {
 
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
         if let label = self.label {
@@ -127,7 +123,7 @@ extension GameScene {
 
 #if os(OSX)
 // Mouse-based event handling
-extension GameScene {
+extension PlanetariumClockScene {
 
     override func mouseDown(with event: NSEvent) {
         if let label = self.label {

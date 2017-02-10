@@ -25,14 +25,14 @@
 		5DD836381E4E393700292B09 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 5DD835ED1E4E393600292B09 /* Actions.sks */; };
 		5DD836391E4E393700292B09 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 5DD835ED1E4E393600292B09 /* Actions.sks */; };
 		5DD8363A1E4E393700292B09 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 5DD835ED1E4E393600292B09 /* Actions.sks */; };
-		5DD8363B1E4E393700292B09 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 5DD835EE1E4E393600292B09 /* GameScene.sks */; };
-		5DD8363C1E4E393700292B09 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 5DD835EE1E4E393600292B09 /* GameScene.sks */; };
-		5DD8363D1E4E393700292B09 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 5DD835EE1E4E393600292B09 /* GameScene.sks */; };
-		5DD8363E1E4E393700292B09 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 5DD835EE1E4E393600292B09 /* GameScene.sks */; };
-		5DD8363F1E4E393700292B09 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DD835EF1E4E393600292B09 /* GameScene.swift */; };
-		5DD836401E4E393700292B09 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DD835EF1E4E393600292B09 /* GameScene.swift */; };
-		5DD836411E4E393700292B09 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DD835EF1E4E393600292B09 /* GameScene.swift */; };
-		5DD836421E4E393700292B09 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DD835EF1E4E393600292B09 /* GameScene.swift */; };
+		5DD8363B1E4E393700292B09 /* PlanetariumClockScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 5DD835EE1E4E393600292B09 /* PlanetariumClockScene.sks */; };
+		5DD8363C1E4E393700292B09 /* PlanetariumClockScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 5DD835EE1E4E393600292B09 /* PlanetariumClockScene.sks */; };
+		5DD8363D1E4E393700292B09 /* PlanetariumClockScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 5DD835EE1E4E393600292B09 /* PlanetariumClockScene.sks */; };
+		5DD8363E1E4E393700292B09 /* PlanetariumClockScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 5DD835EE1E4E393600292B09 /* PlanetariumClockScene.sks */; };
+		5DD8363F1E4E393700292B09 /* PlanetariumClockScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DD835EF1E4E393600292B09 /* PlanetariumClockScene.swift */; };
+		5DD836401E4E393700292B09 /* PlanetariumClockScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DD835EF1E4E393600292B09 /* PlanetariumClockScene.swift */; };
+		5DD836411E4E393700292B09 /* PlanetariumClockScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DD835EF1E4E393600292B09 /* PlanetariumClockScene.swift */; };
+		5DD836421E4E393700292B09 /* PlanetariumClockScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DD835EF1E4E393600292B09 /* PlanetariumClockScene.swift */; };
 		5DD836431E4E393700292B09 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5DD835F01E4E393600292B09 /* Assets.xcassets */; };
 		5DD836441E4E393700292B09 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5DD835F01E4E393600292B09 /* Assets.xcassets */; };
 		5DD836451E4E393700292B09 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5DD835F01E4E393600292B09 /* Assets.xcassets */; };
@@ -83,8 +83,8 @@
 
 /* Begin PBXFileReference section */
 		5DD835ED1E4E393600292B09 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
-		5DD835EE1E4E393600292B09 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
-		5DD835EF1E4E393600292B09 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		5DD835EE1E4E393600292B09 /* PlanetariumClockScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = PlanetariumClockScene.sks; sourceTree = "<group>"; };
+		5DD835EF1E4E393600292B09 /* PlanetariumClockScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetariumClockScene.swift; sourceTree = "<group>"; };
 		5DD835F01E4E393600292B09 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5DD835F51E4E393600292B09 /* Planetarium Clock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Planetarium Clock.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5DD835F81E4E393600292B09 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -160,8 +160,8 @@
 			isa = PBXGroup;
 			children = (
 				5DD835ED1E4E393600292B09 /* Actions.sks */,
-				5DD835EE1E4E393600292B09 /* GameScene.sks */,
-				5DD835EF1E4E393600292B09 /* GameScene.swift */,
+				5DD835EE1E4E393600292B09 /* PlanetariumClockScene.sks */,
+				5DD835EF1E4E393600292B09 /* PlanetariumClockScene.swift */,
 				5DD835F01E4E393600292B09 /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -386,7 +386,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5DD8363B1E4E393700292B09 /* GameScene.sks in Resources */,
+				5DD8363B1E4E393700292B09 /* PlanetariumClockScene.sks in Resources */,
 				5DD835FE1E4E393600292B09 /* Main.storyboard in Resources */,
 				5DD836381E4E393700292B09 /* Actions.sks in Resources */,
 				5DD836011E4E393600292B09 /* LaunchScreen.storyboard in Resources */,
@@ -407,7 +407,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5DD8363C1E4E393700292B09 /* GameScene.sks in Resources */,
+				5DD8363C1E4E393700292B09 /* PlanetariumClockScene.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,7 +416,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5DD836281E4E393700292B09 /* Main.storyboard in Resources */,
-				5DD8363D1E4E393700292B09 /* GameScene.sks in Resources */,
+				5DD8363D1E4E393700292B09 /* PlanetariumClockScene.sks in Resources */,
 				5DD836451E4E393700292B09 /* Assets.xcassets in Resources */,
 				5DD836391E4E393700292B09 /* Actions.sks in Resources */,
 			);
@@ -427,7 +427,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5DD836361E4E393700292B09 /* Main.storyboard in Resources */,
-				5DD8363E1E4E393700292B09 /* GameScene.sks in Resources */,
+				5DD8363E1E4E393700292B09 /* PlanetariumClockScene.sks in Resources */,
 				5DD836461E4E393700292B09 /* Assets.xcassets in Resources */,
 				5DD8363A1E4E393700292B09 /* Actions.sks in Resources */,
 			);
@@ -440,7 +440,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5DD8363F1E4E393700292B09 /* GameScene.swift in Sources */,
+				5DD8363F1E4E393700292B09 /* PlanetariumClockScene.swift in Sources */,
 				5DD835FB1E4E393600292B09 /* GameViewController.swift in Sources */,
 				5DD835F91E4E393600292B09 /* AppDelegate.swift in Sources */,
 			);
@@ -450,7 +450,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5DD836401E4E393700292B09 /* GameScene.swift in Sources */,
+				5DD836401E4E393700292B09 /* PlanetariumClockScene.swift in Sources */,
 				5DD8361A1E4E393700292B09 /* ExtensionDelegate.swift in Sources */,
 				5DD836181E4E393700292B09 /* InterfaceController.swift in Sources */,
 			);
@@ -460,7 +460,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5DD836411E4E393700292B09 /* GameScene.swift in Sources */,
+				5DD836411E4E393700292B09 /* PlanetariumClockScene.swift in Sources */,
 				5DD836251E4E393700292B09 /* GameViewController.swift in Sources */,
 				5DD836231E4E393700292B09 /* AppDelegate.swift in Sources */,
 			);
@@ -470,7 +470,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5DD836421E4E393700292B09 /* GameScene.swift in Sources */,
+				5DD836421E4E393700292B09 /* PlanetariumClockScene.swift in Sources */,
 				5DD836331E4E393700292B09 /* GameViewController.swift in Sources */,
 				5DD836311E4E393700292B09 /* AppDelegate.swift in Sources */,
 			);
@@ -806,6 +806,7 @@
 				5DD8364B1E4E393700292B09 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5DD8364D1E4E393700292B09 /* Build configuration list for PBXNativeTarget "watchOS App" */ = {
 			isa = XCConfigurationList;
@@ -814,6 +815,7 @@
 				5DD8364F1E4E393700292B09 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5DD836511E4E393700292B09 /* Build configuration list for PBXNativeTarget "iOS" */ = {
 			isa = XCConfigurationList;
@@ -822,6 +824,7 @@
 				5DD836531E4E393700292B09 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5DD836541E4E393700292B09 /* Build configuration list for PBXNativeTarget "tvOS" */ = {
 			isa = XCConfigurationList;
@@ -830,6 +833,7 @@
 				5DD836561E4E393700292B09 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5DD836571E4E393700292B09 /* Build configuration list for PBXNativeTarget "macOS" */ = {
 			isa = XCConfigurationList;
@@ -838,6 +842,7 @@
 				5DD836591E4E393700292B09 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
