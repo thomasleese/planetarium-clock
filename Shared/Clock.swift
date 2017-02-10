@@ -41,7 +41,7 @@ class HandNode: SKShapeNode {
                 calendar.component(.minute, from: date)) / 720.0
         } else if component == .minute {
             proportion = Double(calendar.component(.minute, from: date) * 60 +
-                calendar.component(.minute, from: date)) / 3600.0
+                calendar.component(.second, from: date)) / 3600.0
         } else if component == .second {
             proportion = Double(calendar.component(.second, from: date) * 1000 +
                 calendar.component(.nanosecond, from: date) / 1_000_000) / 60000.0

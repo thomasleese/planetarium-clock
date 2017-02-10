@@ -15,7 +15,7 @@ class StarNode: SKShapeNode {
 
         let x = -500 + Int(arc4random_uniform(1000))
         let y = -500 + Int(arc4random_uniform(1000))
-        let diameter = Double(arc4random_uniform(100)) / 50.0
+        let diameter = Double(arc4random_uniform(100) + 10) / 50.0
 
         let origin = CGPoint(x: x, y: y)
         let size = CGSize(width: diameter, height: diameter)
