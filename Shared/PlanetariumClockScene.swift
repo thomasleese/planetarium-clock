@@ -20,8 +20,7 @@ class PlanetariumClockScene: SKScene {
     
     class func loadScene() -> PlanetariumClockScene {
         guard let scene = SKScene(fileNamed: "PlanetariumClockScene") as? PlanetariumClockScene else {
-            print("Failed to load scene!")
-            abort()
+            fatalError("Failed to load scene!")
         }
         
         scene.scaleMode = .aspectFit
