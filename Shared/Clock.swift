@@ -20,7 +20,7 @@ class HandNode: SKShapeNode {
         let radius = Orbit.radius(for: orbit)
 
         let origin = CGPoint(x: -2, y: -2)
-        let size = CGSize(width: 4, height: radius + 2)
+        let size = CGSize(width: 2, height: radius + 2)
         self.path = CGPath(rect: CGRect(origin: origin, size: size),
                            transform: nil)
         self.lineWidth = 0
