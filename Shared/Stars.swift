@@ -48,7 +48,9 @@ class StarNode: SKShapeNode {
 }
 
 class StarfieldNode: SKNode {
-
+    
+    let starDensity = 1200
+    
     required init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
 
@@ -56,7 +58,7 @@ class StarfieldNode: SKNode {
     }
 
     private func createStars() {
-        for _ in 1...600 {
+        for _ in 1...starDensity {
             addChild(StarNode())
         }
 
