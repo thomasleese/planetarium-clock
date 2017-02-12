@@ -88,25 +88,25 @@ class PlanetariumClockScene: SKScene {
 extension PlanetariumClockScene {
 
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
-        for t in touches {
+        for _ in touches {
 
         }
     }
     
     override func touchesMoved(_ touches: Set<UITouch>, with event: UIEvent?) {
-        for t in touches {
+        for _ in touches {
 
         }
     }
     
     override func touchesEnded(_ touches: Set<UITouch>, with event: UIEvent?) {
-        for t in touches {
+        for _ in touches {
 
         }
     }
     
     override func touchesCancelled(_ touches: Set<UITouch>, with event: UIEvent?) {
-        for t in touches {
+        for _ in touches {
 
         }
     }

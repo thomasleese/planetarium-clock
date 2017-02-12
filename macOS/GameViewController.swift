@@ -16,8 +16,7 @@ class GameViewController: NSViewController {
         super.viewDidLoad()
         
         let scene = PlanetariumClockScene.loadScene()
-        
-        // Present the scene
+
         let skView = self.view as! SKView
         skView.presentScene(scene)
         

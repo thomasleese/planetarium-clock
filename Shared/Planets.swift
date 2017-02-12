@@ -16,6 +16,7 @@ class PlanetNode: SKNode {
     let ball: SKSpriteNode
     let shadow: SKSpriteNode
     let background: SKSpriteNode
+    let backgroundAndBall: SKEffectNode
 
     var radius: Int { return Orbit.radius(for: orbit) }
 
@@ -26,21 +27,25 @@ class PlanetNode: SKNode {
         background = SKSpriteNode(imageNamed: "Background")
         shadow = SKSpriteNode(imageNamed: "Shadow")
         ball = SKSpriteNode(imageNamed: "Ball")
+        backgroundAndBall = SKEffectNode()
 
         super.init()
 
-        addChild(shadow)
-        addChild(background)
-        addChild(ball)
-
-        shadow.colorBlendFactor = 1.0
-        shadow.color = colour
-
-        background.blendMode = .add
+        background.blendMode = .alpha
         background.colorBlendFactor = 1.0
         background.color = colour.withAlphaComponent(0.75)
 
         ball.blendMode = .alpha
+
+        backgroundAndBall.addChild(background)
+        backgroundAndBall.addChild(ball)
+
+        addChild(backgroundAndBall)
+
+        shadow.colorBlendFactor = 1.0
+        shadow.color = colour.withAlphaComponent(0.8)
+
+        addChild(shadow)
 
         xScale = 0.2
         yScale = 0.2
