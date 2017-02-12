@@ -27,7 +27,7 @@ class OrbitNode: SKShapeNode {
         let size = CGSize(width: diameter, height: diameter)
         self.path = CGPath(ellipseIn: CGRect(origin: origin, size: size),
                            transform: nil)
-        self.lineWidth = 4
+        self.lineWidth = 0.25
         self.strokeColor = SKColor.black
     }
     
@@ -72,7 +72,7 @@ class MonthMarkerNode: SKShapeNode {
 
         let radius = Orbit.radius(for: orbit)
         let origin = CGPoint(x: -2, y: radius)
-        let size = CGSize(width: 4, height: 15)
+        let size = CGSize(width: 2, height: 15)
         self.path = CGPath(rect: CGRect(origin: origin, size: size),
                            transform: nil)
         self.lineWidth = 0
