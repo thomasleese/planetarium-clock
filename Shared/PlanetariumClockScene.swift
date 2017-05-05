@@ -13,26 +13,6 @@ import SpriteKit
     typealias SKColor = UIColor
 #endif
 
-extension Int {
-
-    var degreesToRadians: Double {
-        return Double(self) * .pi / 180
-    }
-
-}
-
-extension FloatingPoint {
-
-    var degreesToRadians: Self {
-        return self * .pi / 180
-    }
-
-    var radiansToDegrees: Self {
-        return self * 180 / .pi
-    }
-    
-}
-
 extension SKColor {
 
     convenience init(red: Int, green: Int, blue: Int) {

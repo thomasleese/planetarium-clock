@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5D095BD81EBCD681004E9BC5 /* Angles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DE0F8361EBCB50900395AEC /* Angles.swift */; };
+		5D095BD91EBCD681004E9BC5 /* Angles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DE0F8361EBCB50900395AEC /* Angles.swift */; };
+		5D095BDA1EBCD682004E9BC5 /* Angles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DE0F8361EBCB50900395AEC /* Angles.swift */; };
+		5D095BDB1EBCD682004E9BC5 /* Angles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DE0F8361EBCB50900395AEC /* Angles.swift */; };
 		5D7BB6461E4E3E0100821520 /* Orbits.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D7BB6451E4E3E0100821520 /* Orbits.swift */; };
 		5D7BB6471E4E3E0100821520 /* Orbits.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D7BB6451E4E3E0100821520 /* Orbits.swift */; };
 		5D7BB6481E4E3E0100821520 /* Orbits.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D7BB6451E4E3E0100821520 /* Orbits.swift */; };
@@ -53,6 +57,18 @@
 		5DD836441E4E393700292B09 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5DD835F01E4E393600292B09 /* Assets.xcassets */; };
 		5DD836451E4E393700292B09 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5DD835F01E4E393600292B09 /* Assets.xcassets */; };
 		5DD836461E4E393700292B09 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5DD835F01E4E393600292B09 /* Assets.xcassets */; };
+		5DE0F8371EBCB50900395AEC /* Angles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DE0F8361EBCB50900395AEC /* Angles.swift */; };
+		5DE0F8381EBCB50900395AEC /* Angles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DE0F8361EBCB50900395AEC /* Angles.swift */; };
+		5DE0F8391EBCB50900395AEC /* Angles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DE0F8361EBCB50900395AEC /* Angles.swift */; };
+		5DE0F83A1EBCB50900395AEC /* Angles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DE0F8361EBCB50900395AEC /* Angles.swift */; };
+		5DE0F8891EBCB77D00395AEC /* AnglesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DE0F8761EBCB73300395AEC /* AnglesTests.swift */; };
+		5DE0F88B1EBCB85F00395AEC /* Angles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DE0F8361EBCB50900395AEC /* Angles.swift */; };
+		5DE0F89A1EBCB9BE00395AEC /* AnglesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DE0F8761EBCB73300395AEC /* AnglesTests.swift */; };
+		5DE0F89B1EBCB9CD00395AEC /* Angles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DE0F8361EBCB50900395AEC /* Angles.swift */; };
+		5DE0F8AA1EBCBA0200395AEC /* AnglesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DE0F8761EBCB73300395AEC /* AnglesTests.swift */; };
+		5DE0F8B21EBCBA2200395AEC /* macOS_UI_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DE0F8B11EBCBA2200395AEC /* macOS_UI_Tests.swift */; };
+		5DE0F8C01EBCBA8500395AEC /* iOS_UI_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DE0F8BF1EBCBA8500395AEC /* iOS_UI_Tests.swift */; };
+		5DE0F8CE1EBCBAA000395AEC /* tvOS_UI_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DE0F8CD1EBCBAA000395AEC /* tvOS_UI_Tests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +85,48 @@
 			proxyType = 1;
 			remoteGlobalIDString = 5DD836111E4E393700292B09;
 			remoteInfo = "watchOS Extension";
+		};
+		5DE0F8841EBCB76B00395AEC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5DD835E81E4E393600292B09 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5DD8362D1E4E393700292B09;
+			remoteInfo = macOS;
+		};
+		5DE0F8951EBCB9B400395AEC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5DD835E81E4E393600292B09 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5DD8361F1E4E393700292B09;
+			remoteInfo = tvOS;
+		};
+		5DE0F8A51EBCB9FA00395AEC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5DD835E81E4E393600292B09 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5DD835F41E4E393600292B09;
+			remoteInfo = iOS;
+		};
+		5DE0F8B41EBCBA2200395AEC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5DD835E81E4E393600292B09 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5DD8362D1E4E393700292B09;
+			remoteInfo = macOS;
+		};
+		5DE0F8C21EBCBA8500395AEC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5DD835E81E4E393600292B09 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5DD835F41E4E393600292B09;
+			remoteInfo = iOS;
+		};
+		5DE0F8D01EBCBAA000395AEC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5DD835E81E4E393600292B09 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5DD8361F1E4E393700292B09;
+			remoteInfo = tvOS;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -129,6 +187,23 @@
 		5DD836321E4E393700292B09 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		5DD836351E4E393700292B09 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5DD836371E4E393700292B09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5DE0F8361EBCB50900395AEC /* Angles.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Angles.swift; sourceTree = "<group>"; };
+		5DE0F8761EBCB73300395AEC /* AnglesTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AnglesTests.swift; path = "Shared Tests/AnglesTests.swift"; sourceTree = "<group>"; };
+		5DE0F87F1EBCB76B00395AEC /* macOS Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "macOS Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DE0F8831EBCB76B00395AEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5DE0F8901EBCB9B400395AEC /* tvOS Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "tvOS Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DE0F8941EBCB9B400395AEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5DE0F8A01EBCB9FA00395AEC /* iOS Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DE0F8A41EBCB9FA00395AEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5DE0F8AF1EBCBA2200395AEC /* macOS UI Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "macOS UI Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DE0F8B11EBCBA2200395AEC /* macOS_UI_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = macOS_UI_Tests.swift; sourceTree = "<group>"; };
+		5DE0F8B31EBCBA2200395AEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5DE0F8BD1EBCBA8500395AEC /* iOS UI Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS UI Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DE0F8BF1EBCBA8500395AEC /* iOS_UI_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_UI_Tests.swift; sourceTree = "<group>"; };
+		5DE0F8C11EBCBA8500395AEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5DE0F8CB1EBCBAA000395AEC /* tvOS UI Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "tvOS UI Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DE0F8CD1EBCBAA000395AEC /* tvOS_UI_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tvOS_UI_Tests.swift; sourceTree = "<group>"; };
+		5DE0F8CF1EBCBAA000395AEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -160,6 +235,48 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		5DE0F87C1EBCB76B00395AEC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DE0F88D1EBCB9B400395AEC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DE0F89D1EBCB9FA00395AEC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DE0F8AC1EBCBA2200395AEC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DE0F8BA1EBCBA8500395AEC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DE0F8C81EBCBAA000395AEC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -167,11 +284,18 @@
 			isa = PBXGroup;
 			children = (
 				5DD835EC1E4E393600292B09 /* Shared */,
+				5DE0F8751EBCB6FC00395AEC /* Shared Tests */,
 				5DD835F71E4E393600292B09 /* iOS */,
+				5DE0F8A11EBCB9FA00395AEC /* iOS Tests */,
+				5DE0F8BE1EBCBA8500395AEC /* iOS UI Tests */,
+				5DD8362F1E4E393700292B09 /* macOS */,
+				5DE0F8801EBCB76B00395AEC /* macOS Tests */,
+				5DE0F8B01EBCBA2200395AEC /* macOS UI Tests */,
+				5DD836211E4E393700292B09 /* tvOS */,
+				5DE0F8911EBCB9B400395AEC /* tvOS Tests */,
+				5DE0F8CC1EBCBAA000395AEC /* tvOS UI Tests */,
 				5DD836091E4E393700292B09 /* watchOS App */,
 				5DD836161E4E393700292B09 /* watchOS Extension */,
-				5DD836211E4E393700292B09 /* tvOS */,
-				5DD8362F1E4E393700292B09 /* macOS */,
 				5DD835F61E4E393600292B09 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -179,14 +303,15 @@
 		5DD835EC1E4E393600292B09 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
-				5DD835F01E4E393600292B09 /* Assets.xcassets */,
 				5DD835ED1E4E393600292B09 /* Actions.sks */,
+				5DE0F8361EBCB50900395AEC /* Angles.swift */,
+				5DD835F01E4E393600292B09 /* Assets.xcassets */,
+				5D7BB64A1E4E4AC000821520 /* Clock.swift */,
+				5D7BB6451E4E3E0100821520 /* Orbits.swift */,
 				5DD835EE1E4E393600292B09 /* PlanetariumClockScene.sks */,
 				5DD835EF1E4E393600292B09 /* PlanetariumClockScene.swift */,
-				5D7BB6451E4E3E0100821520 /* Orbits.swift */,
-				5D7BB64A1E4E4AC000821520 /* Clock.swift */,
-				5D7BB64F1E4E520300821520 /* Stars.swift */,
 				5D7BB6541E4E586100821520 /* Planets.swift */,
+				5D7BB64F1E4E520300821520 /* Stars.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -199,6 +324,12 @@
 				5DD836121E4E393700292B09 /* Planetarium Clock Extension.appex */,
 				5DD836201E4E393700292B09 /* Planetarium Clock.app */,
 				5DD8362E1E4E393700292B09 /* Planetarium Clock.app */,
+				5DE0F87F1EBCB76B00395AEC /* macOS Tests.xctest */,
+				5DE0F8901EBCB9B400395AEC /* tvOS Tests.xctest */,
+				5DE0F8A01EBCB9FA00395AEC /* iOS Tests.xctest */,
+				5DE0F8AF1EBCBA2200395AEC /* macOS UI Tests.xctest */,
+				5DE0F8BD1EBCBA8500395AEC /* iOS UI Tests.xctest */,
+				5DE0F8CB1EBCBAA000395AEC /* tvOS UI Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -254,6 +385,65 @@
 				5DD836371E4E393700292B09 /* Info.plist */,
 			);
 			path = macOS;
+			sourceTree = "<group>";
+		};
+		5DE0F8751EBCB6FC00395AEC /* Shared Tests */ = {
+			isa = PBXGroup;
+			children = (
+				5DE0F8761EBCB73300395AEC /* AnglesTests.swift */,
+			);
+			name = "Shared Tests";
+			sourceTree = "<group>";
+		};
+		5DE0F8801EBCB76B00395AEC /* macOS Tests */ = {
+			isa = PBXGroup;
+			children = (
+				5DE0F8831EBCB76B00395AEC /* Info.plist */,
+			);
+			path = "macOS Tests";
+			sourceTree = "<group>";
+		};
+		5DE0F8911EBCB9B400395AEC /* tvOS Tests */ = {
+			isa = PBXGroup;
+			children = (
+				5DE0F8941EBCB9B400395AEC /* Info.plist */,
+			);
+			path = "tvOS Tests";
+			sourceTree = "<group>";
+		};
+		5DE0F8A11EBCB9FA00395AEC /* iOS Tests */ = {
+			isa = PBXGroup;
+			children = (
+				5DE0F8A41EBCB9FA00395AEC /* Info.plist */,
+			);
+			path = "iOS Tests";
+			sourceTree = "<group>";
+		};
+		5DE0F8B01EBCBA2200395AEC /* macOS UI Tests */ = {
+			isa = PBXGroup;
+			children = (
+				5DE0F8B11EBCBA2200395AEC /* macOS_UI_Tests.swift */,
+				5DE0F8B31EBCBA2200395AEC /* Info.plist */,
+			);
+			path = "macOS UI Tests";
+			sourceTree = "<group>";
+		};
+		5DE0F8BE1EBCBA8500395AEC /* iOS UI Tests */ = {
+			isa = PBXGroup;
+			children = (
+				5DE0F8BF1EBCBA8500395AEC /* iOS_UI_Tests.swift */,
+				5DE0F8C11EBCBA8500395AEC /* Info.plist */,
+			);
+			path = "iOS UI Tests";
+			sourceTree = "<group>";
+		};
+		5DE0F8CC1EBCBAA000395AEC /* tvOS UI Tests */ = {
+			isa = PBXGroup;
+			children = (
+				5DE0F8CD1EBCBAA000395AEC /* tvOS_UI_Tests.swift */,
+				5DE0F8CF1EBCBAA000395AEC /* Info.plist */,
+			);
+			path = "tvOS UI Tests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -346,13 +536,121 @@
 			productReference = 5DD8362E1E4E393700292B09 /* Planetarium Clock.app */;
 			productType = "com.apple.product-type.application";
 		};
+		5DE0F87E1EBCB76B00395AEC /* macOS Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5DE0F8861EBCB76B00395AEC /* Build configuration list for PBXNativeTarget "macOS Tests" */;
+			buildPhases = (
+				5DE0F87B1EBCB76B00395AEC /* Sources */,
+				5DE0F87C1EBCB76B00395AEC /* Frameworks */,
+				5DE0F87D1EBCB76B00395AEC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5DE0F8851EBCB76B00395AEC /* PBXTargetDependency */,
+			);
+			name = "macOS Tests";
+			productName = "macOS Tests";
+			productReference = 5DE0F87F1EBCB76B00395AEC /* macOS Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5DE0F88F1EBCB9B400395AEC /* tvOS Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5DE0F8971EBCB9B400395AEC /* Build configuration list for PBXNativeTarget "tvOS Tests" */;
+			buildPhases = (
+				5DE0F88C1EBCB9B400395AEC /* Sources */,
+				5DE0F88D1EBCB9B400395AEC /* Frameworks */,
+				5DE0F88E1EBCB9B400395AEC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5DE0F8961EBCB9B400395AEC /* PBXTargetDependency */,
+			);
+			name = "tvOS Tests";
+			productName = "tvOS Tests";
+			productReference = 5DE0F8901EBCB9B400395AEC /* tvOS Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5DE0F89F1EBCB9FA00395AEC /* iOS Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5DE0F8A71EBCB9FA00395AEC /* Build configuration list for PBXNativeTarget "iOS Tests" */;
+			buildPhases = (
+				5DE0F89C1EBCB9FA00395AEC /* Sources */,
+				5DE0F89D1EBCB9FA00395AEC /* Frameworks */,
+				5DE0F89E1EBCB9FA00395AEC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5DE0F8A61EBCB9FA00395AEC /* PBXTargetDependency */,
+			);
+			name = "iOS Tests";
+			productName = "iOS Tests";
+			productReference = 5DE0F8A01EBCB9FA00395AEC /* iOS Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5DE0F8AE1EBCBA2200395AEC /* macOS UI Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5DE0F8B61EBCBA2200395AEC /* Build configuration list for PBXNativeTarget "macOS UI Tests" */;
+			buildPhases = (
+				5DE0F8AB1EBCBA2200395AEC /* Sources */,
+				5DE0F8AC1EBCBA2200395AEC /* Frameworks */,
+				5DE0F8AD1EBCBA2200395AEC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5DE0F8B51EBCBA2200395AEC /* PBXTargetDependency */,
+			);
+			name = "macOS UI Tests";
+			productName = "macOS UI Tests";
+			productReference = 5DE0F8AF1EBCBA2200395AEC /* macOS UI Tests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		5DE0F8BC1EBCBA8500395AEC /* iOS UI Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5DE0F8C41EBCBA8500395AEC /* Build configuration list for PBXNativeTarget "iOS UI Tests" */;
+			buildPhases = (
+				5DE0F8B91EBCBA8500395AEC /* Sources */,
+				5DE0F8BA1EBCBA8500395AEC /* Frameworks */,
+				5DE0F8BB1EBCBA8500395AEC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5DE0F8C31EBCBA8500395AEC /* PBXTargetDependency */,
+			);
+			name = "iOS UI Tests";
+			productName = "iOS UI Tests";
+			productReference = 5DE0F8BD1EBCBA8500395AEC /* iOS UI Tests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		5DE0F8CA1EBCBAA000395AEC /* tvOS UI Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5DE0F8D21EBCBAA000395AEC /* Build configuration list for PBXNativeTarget "tvOS UI Tests" */;
+			buildPhases = (
+				5DE0F8C71EBCBAA000395AEC /* Sources */,
+				5DE0F8C81EBCBAA000395AEC /* Frameworks */,
+				5DE0F8C91EBCBAA000395AEC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5DE0F8D11EBCBAA000395AEC /* PBXTargetDependency */,
+			);
+			name = "tvOS UI Tests";
+			productName = "tvOS UI Tests";
+			productReference = 5DE0F8CB1EBCBAA000395AEC /* tvOS UI Tests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		5DD835E81E4E393600292B09 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0820;
+				LastSwiftUpdateCheck = 0800;
 				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = "Thomas Leese";
 				TargetAttributes = {
@@ -381,6 +679,36 @@
 						DevelopmentTeam = R6UQ555W54;
 						ProvisioningStyle = Automatic;
 					};
+					5DE0F87E1EBCB76B00395AEC = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5DD8362D1E4E393700292B09;
+					};
+					5DE0F88F1EBCB9B400395AEC = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5DD8361F1E4E393700292B09;
+					};
+					5DE0F89F1EBCB9FA00395AEC = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5DD835F41E4E393600292B09;
+					};
+					5DE0F8AE1EBCBA2200395AEC = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5DD8362D1E4E393700292B09;
+					};
+					5DE0F8BC1EBCBA8500395AEC = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5DD835F41E4E393600292B09;
+					};
+					5DE0F8CA1EBCBAA000395AEC = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5DD8361F1E4E393700292B09;
+					};
 				};
 			};
 			buildConfigurationList = 5DD835EB1E4E393600292B09 /* Build configuration list for PBXProject "Planetarium Clock" */;
@@ -401,6 +729,12 @@
 				5DD836111E4E393700292B09 /* watchOS Extension */,
 				5DD8361F1E4E393700292B09 /* tvOS */,
 				5DD8362D1E4E393700292B09 /* macOS */,
+				5DE0F87E1EBCB76B00395AEC /* macOS Tests */,
+				5DE0F88F1EBCB9B400395AEC /* tvOS Tests */,
+				5DE0F89F1EBCB9FA00395AEC /* iOS Tests */,
+				5DE0F8AE1EBCBA2200395AEC /* macOS UI Tests */,
+				5DE0F8BC1EBCBA8500395AEC /* iOS UI Tests */,
+				5DE0F8CA1EBCBAA000395AEC /* tvOS UI Tests */,
 			);
 		};
 /* End PBXProject section */
@@ -457,6 +791,48 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		5DE0F87D1EBCB76B00395AEC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DE0F88E1EBCB9B400395AEC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DE0F89E1EBCB9FA00395AEC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DE0F8AD1EBCBA2200395AEC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DE0F8BB1EBCBA8500395AEC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DE0F8C91EBCBAA000395AEC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -465,6 +841,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5D7BB6461E4E3E0100821520 /* Orbits.swift in Sources */,
+				5DE0F8371EBCB50900395AEC /* Angles.swift in Sources */,
 				5D7BB6551E4E586100821520 /* Planets.swift in Sources */,
 				5D7BB6501E4E520300821520 /* Stars.swift in Sources */,
 				5D7BB64B1E4E4AC000821520 /* Clock.swift in Sources */,
@@ -479,6 +856,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5D7BB6471E4E3E0100821520 /* Orbits.swift in Sources */,
+				5DE0F8381EBCB50900395AEC /* Angles.swift in Sources */,
 				5D7BB6561E4E586100821520 /* Planets.swift in Sources */,
 				5D7BB6511E4E520300821520 /* Stars.swift in Sources */,
 				5D7BB64C1E4E4AC000821520 /* Clock.swift in Sources */,
@@ -493,6 +871,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5D7BB6481E4E3E0100821520 /* Orbits.swift in Sources */,
+				5DE0F8391EBCB50900395AEC /* Angles.swift in Sources */,
 				5D7BB6571E4E586100821520 /* Planets.swift in Sources */,
 				5D7BB6521E4E520300821520 /* Stars.swift in Sources */,
 				5D7BB64D1E4E4AC000821520 /* Clock.swift in Sources */,
@@ -507,12 +886,67 @@
 			buildActionMask = 2147483647;
 			files = (
 				5D7BB6491E4E3E0100821520 /* Orbits.swift in Sources */,
+				5DE0F83A1EBCB50900395AEC /* Angles.swift in Sources */,
 				5D7BB6581E4E586100821520 /* Planets.swift in Sources */,
 				5D7BB6531E4E520300821520 /* Stars.swift in Sources */,
 				5D7BB64E1E4E4AC000821520 /* Clock.swift in Sources */,
 				5DD836421E4E393700292B09 /* PlanetariumClockScene.swift in Sources */,
 				5DD836331E4E393700292B09 /* GameViewController.swift in Sources */,
 				5DD836311E4E393700292B09 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DE0F87B1EBCB76B00395AEC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DE0F88B1EBCB85F00395AEC /* Angles.swift in Sources */,
+				5DE0F8891EBCB77D00395AEC /* AnglesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DE0F88C1EBCB9B400395AEC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DE0F89B1EBCB9CD00395AEC /* Angles.swift in Sources */,
+				5DE0F89A1EBCB9BE00395AEC /* AnglesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DE0F89C1EBCB9FA00395AEC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DE0F8AA1EBCBA0200395AEC /* AnglesTests.swift in Sources */,
+				5D095BD81EBCD681004E9BC5 /* Angles.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DE0F8AB1EBCBA2200395AEC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DE0F8B21EBCBA2200395AEC /* macOS_UI_Tests.swift in Sources */,
+				5D095BD91EBCD681004E9BC5 /* Angles.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DE0F8B91EBCBA8500395AEC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DE0F8C01EBCBA8500395AEC /* iOS_UI_Tests.swift in Sources */,
+				5D095BDA1EBCD682004E9BC5 /* Angles.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DE0F8C71EBCBAA000395AEC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DE0F8CE1EBCBAA000395AEC /* tvOS_UI_Tests.swift in Sources */,
+				5D095BDB1EBCD682004E9BC5 /* Angles.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -528,6 +962,36 @@
 			isa = PBXTargetDependency;
 			target = 5DD836111E4E393700292B09 /* watchOS Extension */;
 			targetProxy = 5DD836141E4E393700292B09 /* PBXContainerItemProxy */;
+		};
+		5DE0F8851EBCB76B00395AEC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5DD8362D1E4E393700292B09 /* macOS */;
+			targetProxy = 5DE0F8841EBCB76B00395AEC /* PBXContainerItemProxy */;
+		};
+		5DE0F8961EBCB9B400395AEC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5DD8361F1E4E393700292B09 /* tvOS */;
+			targetProxy = 5DE0F8951EBCB9B400395AEC /* PBXContainerItemProxy */;
+		};
+		5DE0F8A61EBCB9FA00395AEC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5DD835F41E4E393600292B09 /* iOS */;
+			targetProxy = 5DE0F8A51EBCB9FA00395AEC /* PBXContainerItemProxy */;
+		};
+		5DE0F8B51EBCBA2200395AEC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5DD8362D1E4E393700292B09 /* macOS */;
+			targetProxy = 5DE0F8B41EBCBA2200395AEC /* PBXContainerItemProxy */;
+		};
+		5DE0F8C31EBCBA8500395AEC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5DD835F41E4E393600292B09 /* iOS */;
+			targetProxy = 5DE0F8C21EBCBA8500395AEC /* PBXContainerItemProxy */;
+		};
+		5DE0F8D11EBCBAA000395AEC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5DD8361F1E4E393700292B09 /* tvOS */;
+			targetProxy = 5DE0F8D01EBCBAA000395AEC /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -827,6 +1291,208 @@
 			};
 			name = Release;
 		};
+		5DE0F8871EBCB76B00395AEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "macOS Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = "thomasleese.macOS-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Planetarium Clock.app/Contents/MacOS/Planetarium Clock";
+			};
+			name = Debug;
+		};
+		5DE0F8881EBCB76B00395AEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "macOS Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = "thomasleese.macOS-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Planetarium Clock.app/Contents/MacOS/Planetarium Clock";
+			};
+			name = Release;
+		};
+		5DE0F8981EBCB9B400395AEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				INFOPLIST_FILE = "tvOS Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "thomasleese.tvOS-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Planetarium Clock.app/Planetarium Clock";
+				TVOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Debug;
+		};
+		5DE0F8991EBCB9B400395AEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				INFOPLIST_FILE = "tvOS Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "thomasleese.tvOS-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Planetarium Clock.app/Planetarium Clock";
+				TVOS_DEPLOYMENT_TARGET = 10.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5DE0F8A81EBCB9FA00395AEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "iOS Tests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "thomasleese.iOS-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Planetarium Clock.app/Planetarium Clock";
+			};
+			name = Debug;
+		};
+		5DE0F8A91EBCB9FA00395AEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "iOS Tests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "thomasleese.iOS-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Planetarium Clock.app/Planetarium Clock";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5DE0F8B71EBCBA2200395AEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "macOS UI Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = "thomasleese.macOS-UI-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = macOS;
+			};
+			name = Debug;
+		};
+		5DE0F8B81EBCBA2200395AEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "macOS UI Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = "thomasleese.macOS-UI-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = macOS;
+			};
+			name = Release;
+		};
+		5DE0F8C51EBCBA8500395AEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "iOS UI Tests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "thomasleese.iOS-UI-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = iOS;
+			};
+			name = Debug;
+		};
+		5DE0F8C61EBCBA8500395AEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "iOS UI Tests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "thomasleese.iOS-UI-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = iOS;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5DE0F8D31EBCBAA000395AEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				INFOPLIST_FILE = "tvOS UI Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "thomasleese.tvOS-UI-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = tvOS;
+				TVOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Debug;
+		};
+		5DE0F8D41EBCBAA000395AEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				INFOPLIST_FILE = "tvOS UI Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "thomasleese.tvOS-UI-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = tvOS;
+				TVOS_DEPLOYMENT_TARGET = 10.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -880,6 +1546,60 @@
 			buildConfigurations = (
 				5DD836581E4E393700292B09 /* Debug */,
 				5DD836591E4E393700292B09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5DE0F8861EBCB76B00395AEC /* Build configuration list for PBXNativeTarget "macOS Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DE0F8871EBCB76B00395AEC /* Debug */,
+				5DE0F8881EBCB76B00395AEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5DE0F8971EBCB9B400395AEC /* Build configuration list for PBXNativeTarget "tvOS Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DE0F8981EBCB9B400395AEC /* Debug */,
+				5DE0F8991EBCB9B400395AEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5DE0F8A71EBCB9FA00395AEC /* Build configuration list for PBXNativeTarget "iOS Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DE0F8A81EBCB9FA00395AEC /* Debug */,
+				5DE0F8A91EBCB9FA00395AEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5DE0F8B61EBCBA2200395AEC /* Build configuration list for PBXNativeTarget "macOS UI Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DE0F8B71EBCBA2200395AEC /* Debug */,
+				5DE0F8B81EBCBA2200395AEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5DE0F8C41EBCBA8500395AEC /* Build configuration list for PBXNativeTarget "iOS UI Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DE0F8C51EBCBA8500395AEC /* Debug */,
+				5DE0F8C61EBCBA8500395AEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5DE0F8D21EBCBAA000395AEC /* Build configuration list for PBXNativeTarget "tvOS UI Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DE0F8D31EBCBAA000395AEC /* Debug */,
+				5DE0F8D41EBCBAA000395AEC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
