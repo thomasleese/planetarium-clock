@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5D095BD81EBCD681004E9BC5 /* Angles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DE0F8361EBCB50900395AEC /* Angles.swift */; };
+		5D095BD91EBCD681004E9BC5 /* Angles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DE0F8361EBCB50900395AEC /* Angles.swift */; };
+		5D095BDA1EBCD682004E9BC5 /* Angles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DE0F8361EBCB50900395AEC /* Angles.swift */; };
+		5D095BDB1EBCD682004E9BC5 /* Angles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DE0F8361EBCB50900395AEC /* Angles.swift */; };
 		5D7BB6461E4E3E0100821520 /* Orbits.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D7BB6451E4E3E0100821520 /* Orbits.swift */; };
 		5D7BB6471E4E3E0100821520 /* Orbits.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D7BB6451E4E3E0100821520 /* Orbits.swift */; };
 		5D7BB6481E4E3E0100821520 /* Orbits.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D7BB6451E4E3E0100821520 /* Orbits.swift */; };
@@ -915,6 +919,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5DE0F8AA1EBCBA0200395AEC /* AnglesTests.swift in Sources */,
+				5D095BD81EBCD681004E9BC5 /* Angles.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -923,6 +928,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5DE0F8B21EBCBA2200395AEC /* macOS_UI_Tests.swift in Sources */,
+				5D095BD91EBCD681004E9BC5 /* Angles.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -931,6 +937,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5DE0F8C01EBCBA8500395AEC /* iOS_UI_Tests.swift in Sources */,
+				5D095BDA1EBCD682004E9BC5 /* Angles.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -939,6 +946,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5DE0F8CE1EBCBAA000395AEC /* tvOS_UI_Tests.swift in Sources */,
+				5D095BDB1EBCD682004E9BC5 /* Angles.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1549,6 +1557,7 @@
 				5DE0F8881EBCB76B00395AEC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5DE0F8971EBCB9B400395AEC /* Build configuration list for PBXNativeTarget "tvOS Tests" */ = {
 			isa = XCConfigurationList;
@@ -1557,6 +1566,7 @@
 				5DE0F8991EBCB9B400395AEC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5DE0F8A71EBCB9FA00395AEC /* Build configuration list for PBXNativeTarget "iOS Tests" */ = {
 			isa = XCConfigurationList;
@@ -1565,6 +1575,7 @@
 				5DE0F8A91EBCB9FA00395AEC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5DE0F8B61EBCBA2200395AEC /* Build configuration list for PBXNativeTarget "macOS UI Tests" */ = {
 			isa = XCConfigurationList;
@@ -1573,6 +1584,7 @@
 				5DE0F8B81EBCBA2200395AEC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5DE0F8C41EBCBA8500395AEC /* Build configuration list for PBXNativeTarget "iOS UI Tests" */ = {
 			isa = XCConfigurationList;
@@ -1581,6 +1593,7 @@
 				5DE0F8C61EBCBA8500395AEC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5DE0F8D21EBCBAA000395AEC /* Build configuration list for PBXNativeTarget "tvOS UI Tests" */ = {
 			isa = XCConfigurationList;
@@ -1589,6 +1602,7 @@
 				5DE0F8D41EBCBAA000395AEC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
