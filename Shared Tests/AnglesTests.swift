@@ -12,14 +12,14 @@ class AnglesTests: XCTestCase {
 
     func testDegreesToRadians() {
         XCTAssert(0.degreesToRadians == 0)
-        XCTAssert(180.degreesToRadians == M_PI)
-        XCTAssert(360.degreesToRadians == 2 * M_PI)
+        XCTAssert(180.degreesToRadians == .pi)
+        XCTAssert(360.degreesToRadians == 2 * Double.pi)
     }
 
     func testRadiansToDegrees() {
         XCTAssert(0.radiansToDegrees == 0)
-        XCTAssert(M_PI.radiansToDegrees == 180)
-        XCTAssert((M_PI * 2).radiansToDegrees == 360)
+        XCTAssert(Double.pi.radiansToDegrees == 180)
+        XCTAssert((Double.pi * 2).radiansToDegrees == 360)
     }
 
 }
