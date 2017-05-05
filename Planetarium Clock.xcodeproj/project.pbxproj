@@ -802,7 +802,7 @@
 				DEVELOPMENT_TEAM = R6UQ555W54;
 				INFOPLIST_FILE = macOS/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				PRODUCT_BUNDLE_IDENTIFIER = "thomasleese.Planetarium-Clock";
 				PRODUCT_NAME = "Planetarium Clock";
 				SDKROOT = macosx;
@@ -819,7 +819,7 @@
 				DEVELOPMENT_TEAM = R6UQ555W54;
 				INFOPLIST_FILE = macOS/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				PRODUCT_BUNDLE_IDENTIFIER = "thomasleese.Planetarium-Clock";
 				PRODUCT_NAME = "Planetarium Clock";
 				SDKROOT = macosx;
